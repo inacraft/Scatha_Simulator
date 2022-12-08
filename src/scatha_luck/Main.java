@@ -170,7 +170,7 @@ public class Main {
 				if(randWorms >= 1 && randWorms <= 4) {
 					nbOfWormsKills++;
 					if(showKillsinput.equals("y")) {
-						if(nbOfScathaKills == 1) {
+						if(nbOfWormsKills == 1) {
 							System.out.println("You killed " + ANSI_WHITE + nbOfWormsKills + ANSI_RESET + " Worm !");
 						}else {
 							System.out.println("You killed " + ANSI_WHITE + nbOfWormsKills + ANSI_RESET + " Worms !");
